@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Dio Brando",
+    "arc": "Phantom Blood"
+  },
+  {
+    "id": 2,
+    "name": "Wamuu",
+    "arc": "Battle Tendency"
+  },
+  {
+    "id": 3,
+    "name": "Kars",
+    "arc": "Battle Tendency"
+  },
+  {
+    "id": 4,
+    "name": "Esidisi",
+    "arc": "Battle Tendency"
+  },
+  {
+    "id": 5,
+    "name": "Enyaba",
+    "arc": "Stardust Crusaders"
+  }
+]

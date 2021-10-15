@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Jonathan Joestar",
+    "arc": "Phantom Blood"
+  },
+  {
+    "id": 2,
+    "name": "Speedwagon",
+    "arc": "Phantom Blood"
+  },
+  {
+    "id": 3,
+    "name": "Baron Zepelli",
+    "arc": "Phantom Blood"
+  },
+  {
+    "id": 4,
+    "name": "Elizabeth Joestar",
+    "arc": "Battle Tendency"
+  },
+  {
+    "id": 5,
+    "name": "Caesar Zepelli",
+    "arc": "Battle Tendency"
+  }
+]
