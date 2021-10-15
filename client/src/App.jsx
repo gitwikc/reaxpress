@@ -7,12 +7,17 @@ const App = (props) => {
   const [villains, setVillains] = React.useState([]);
 
   React.useEffect(() => {
+    const BASE_URL =
+      import.meta.env.MODE === "development"
+        ? "http://localhost:8000"
+        : "https://jojo-characters.herokuapp.com";
+
     axios({
-      url: "http://localhost:8000/heros/all",
+      url: `${BASE_URL}/heros/all`,
     }).then((res) => setHeros(res.data));
 
     axios({
-      url: "http://localhost:8000/villains/all",
+      url: `${BASE_URL}/villains/all`,
     }).then((res) => setVillains(res.data));
   }, []);
 
